@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Signika+Negative&display=swap');
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url("D:\Zeeshan\Javascript\Weather App\src\styles\pictures\jari-hytonen-VJBIn6n_gzI-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    border-bottom: black 2px solid;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.474);
+}
+
+
+.logo{
+    font-family: 'Satisfy', cursive;
+    font-weight: 900;
+    font-size: 1.8em;
+}
+
+
+
+
+.searchButton{
+    margin-left: 8px;
+    background: transparent;
+    border: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.2s;
+    padding: 10px 5px 10px 5px;
+    
+}
+
+.searchButton:hover{
+    transform: scale(1.1);
+}
+
+.fa-magnifying-glass{
+    transform: translateY(+3px);
+}
+
+input{
+
+    border: none;
+    border-radius: 5px;
+    padding: 5px 1px 5px 4px;
+    font-weight: 700;
+    background-color: #7f7f7f;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.398);
+
+}
+.main{
+    display: flex;
+}
+
+.mainLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 50vw;
+    min-height: 85vh;
+
+}
+
+
+.statusSpan{
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'Signika Negative', sans-serif;
+    transform: translateY(+2em) translateX(+5em);
+}
+
+.Place{
+    font-size: 3em;
+    font-family:'Dancing Script', cursive;
+    border-bottom: 5px black solid;
+    width: 40%;
+    text-align: center;
+    
+}
+
+.temperatureStatus{
+    display: flex;
+    gap: 2em;
+    font-size: 1em;
+    font-weight: 600;
+   transform: translateY(-2em);
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.mainTemperature{
+    font-size: 6em;
+    transform: translateY(-0.85em);
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.mainRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20em;
+    margin-bottom: 5em;
+    min-width: 5vw;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh ;
+    
+}
+
+.creator{
+    font-family: 'Signika Negative', sans-serif;
+}
+
+a{
+    color: black;
+}
